@@ -10,4 +10,4 @@ Please if you're interested, click [New Issue][issues] and submit your talk!
 
 
 [meetup]: https://www.meetup.com/austin-devops/
-[issues]: https://github.com/Austin-Devops/talks/issues/new
+[issues]: https://github.com/Austin-Devops/talks/issues/new?assignees=&labels=&template=inital_request.md&title=%5BTitle%5D
