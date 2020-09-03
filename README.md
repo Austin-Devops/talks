@@ -11,7 +11,7 @@ Please if you're interested, click [New Issue][issues] and submit your talk!
 ## Process
 
 1) Fill out the above link to submit the talk you'd like to propose.
-2) The card will got to `Proposed` and one of the organizers will make any relivant comments or thoughts on the `issue`.
+2) The card will go to `Proposed` and one of the organizers will make any relevant comments or thoughts on the `issue`.
 3) When accepted and updated into Meetup.com, the card will go to `Groomed`.
 4) A Day before, or day of, the card will be moved to `In progress`.
 5) When completed the card will move to `Done`.
