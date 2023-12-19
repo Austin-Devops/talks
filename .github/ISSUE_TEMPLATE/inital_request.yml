@@ -80,6 +80,7 @@ body:
         that energy. 
       options:
         - label: I agree that I [read the thing](https://github.com/Austin-Devops/austin-devops/blob/master/speakers/speakers-faq.md#can-i-do-a-vendor-pitch) and I'm not gonna bring that energy.
+          required: true
   - type: checkboxes
     id: talk-coc
     attributes:
