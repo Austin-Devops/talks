@@ -1,0 +1,96 @@
+name: Request for a talk
+description: How to request a talk at Austin DevOps
+title: '[TALK] <title>'
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Thank you for your interest in presenting to the Austin DevOps Meetup!
+        Please complete this template in order to submit a talk.
+  - type: input
+    id: intro
+    attributes:
+      label: Title
+      description: >-
+        Please put your talk title here. If you do not have one yet, write a one
+        sentence description of what you would like to talk about.
+      placeholder: 'Ex: Career tips from a crusty devop turned Director of SRE'
+    validations:
+      required: true
+  - type: textarea
+    id: talk-abstract
+    attributes:
+      label: Abstract
+      description: >-
+        Please put your talk abstract here, writing anything which might let an
+        attendee know why they should come and listen to your talk in
+        particular.
+      placeholder: >-
+        Ex: There are a lot of misconceptions about what it takes to move from
+        individual contributor on an SRE team to a management role. What can you
+        take with you, and what do you need to leave behind? How much can you
+        talk with your team about what goes on in the meetings they don't
+        attend, and how can a manager bring the concepts learned from practicing
+        DevOps as an individual contributor with them as they transition to new
+        roles in their career?
+    validations:
+      required: true
+  - type: dropdown
+    id: talk-duration
+    attributes:
+      label: Duration
+      description: How many minutes do you expect this talk to run (not including Q&A)?
+      options:
+        - '5'
+        - '10'
+        - '15'
+        - '20'
+        - other (add detail in abstract)
+    validations:
+      required: true
+  - type: input
+    id: talk-date
+    attributes:
+      label: Requested Date
+      description: >-
+        Is there a specific occurrence you would like to deliver this talk
+        during? Please note it here.
+      placeholder: Jabuember 41rd, 1985
+  - type: textarea
+    id: talk-bio
+    attributes:
+      label: Speaker Bio
+      description: What would you like us to note about you on the meetup event page?
+      placeholder: >-
+        Samwise Gamgee (usually called Sam) is a fictional character in J. R. R.
+        Tolkien's Middle-earth. A hobbit, Samwise is the chief supporting
+        character of The Lord of the Rings, serving as the loyal companion (in
+        effect: "manservant") of the protagonist Frodo Baggins. Sam is a member
+        of the Fellowship of the Ring, the group of nine charged with destroying
+        the One Ring to prevent the Dark Lord Sauron from taking over the world.
+    validations:
+      required: true
+  - type: checkboxes
+    id: talk-pitchiness
+    attributes:
+      label: Pitchiness
+      description: >-
+        Please acknowledge that you have read [the part about vendor pitches](https://github.com/Austin-Devops/austin-devops/blob/master/speakers/speakers-faq.md#can-i-do-a-vendor-pitch)
+        you understand the group's disdain for them, and that you will not bring 
+        that energy. 
+      options:
+        - label: I agree that I [read the thing](https://github.com/Austin-Devops/austin-devops/blob/master/speakers/speakers-faq.md#can-i-do-a-vendor-pitch) and I'm not gonna bring that energy.
+  - type: checkboxes
+    id: talk-coc
+    attributes:
+      label: Code of Conduct
+      description: >-
+        Austin DevOps Meetup abides by a [Code of Conduct](https://github.com/Austin-Devops/austin-devops/blob/master/CODE_OF_CONDUCT.md), 
+        and we require that all potential speakers also agree to abide by it.
+      options:
+        - label: I agree to follow the [Code of Conduct](https://github.com/Austin-Devops/austin-devops/blob/master/CODE_OF_CONDUCT.md)
+          required: true
+  - type: markdown
+    attributes:
+      value: >-
+        Thanks for submitting a talk to the meetup!
