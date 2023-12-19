@@ -2,7 +2,7 @@
 
 👋 Hi!
 
-Thanks for your interest in speaking at Austin DevOps. We collect our talks here, and publish to the [Meetup.com][meetup]. This is just a way to make sure the organizers have visibilty into talk submissions and the ability track where things are using a familiar tool.
+Thanks for your interest in speaking at Austin DevOps. We collect our talks here, and publish to the [Meetup site][meetup]. This is just a way to make sure the organizers have visibilty into talk submissions and the ability track where things are using a familiar tool.
 
 Please if you're interested, click [New Issue][issues] and submit your talk!
 
