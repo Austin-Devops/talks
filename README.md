@@ -1,6 +1,6 @@
 # talks
 
-:wave: Hi!
+👋 Hi!
 
 Thanks for interest is speaking at Austin DevOps. We collect our talks here, and publish
 to the [Meetup.com][meetup]. This is just a way to make sure the organizers have visibilty
@@ -16,7 +16,7 @@ Please if you're interested, click [New Issue][issues] and submit your talk!
 4) A Day before, or day of, the card will be moved to `In progress`.
 5) When completed the card will move to `Done`.
 
-
+🚀
 
 [meetup]: https://www.meetup.com/austin-devops/
-[issues]: https://github.com/Austin-Devops/talks/issues/new?assignees=&labels=&template=inital_request.md&title=%5BTitle%5D
+[issues]: https://github.com/Austin-Devops/talks/issues/new/choose
